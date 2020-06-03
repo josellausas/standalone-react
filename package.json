@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "main": "app.js",
   "scripts": {
-    "start": "open http://localhost:8888/ && python3 -m http.server 8888",
-    "build": "npx babel app.js --out-file app.min.js --presets minify --watch"
+    "start": "open http://localhost:3003/ && python3 -m http.server 3003",
+    "watch": "npx babel app.js --out-file app.min.js --presets minify --watch"
   },
   "author": "Llau Systems",
   "license": "ISC",
